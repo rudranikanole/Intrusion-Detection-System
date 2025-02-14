@@ -53,12 +53,12 @@ from email.mime.multipart import MIMEMultipart
 # Mailtrap SMTP credentials
 SMTP_SERVER = "sandbox.smtp.mailtrap.io"
 PORT = 2525
-USERNAME = "32ddd7e1f57857"
-PASSWORD = "3f550a53b96f6d"  # Replace with your actual Mailtrap password
+USERNAME = ""  # Replace with your actual Mailtrap username
+PASSWORD = ""  # Replace with your actual Mailtrap password
 
 def send_email(subject, message):
     sender_email = "your_email@example.com"
-    recipient_email = "cd77b426bc-fd7eea@inbox.mailtrap.io"  # Your Mailtrap Inbox Email
+    recipient_email = ""  # Your Mailtrap Inbox Email
 
     msg = MIMEMultipart()
     msg["From"] = sender_email
